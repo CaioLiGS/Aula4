@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://th.bing.com/th/id/R.3667cbe30ac3561b677e76f4825eff2c?rik=dBglwaBFWajbgw&riu=http%3a%2f%2fwww.freeimageslive.co.uk%2ffiles%2fimages006%2flight_waves.jpg&ehk=waHzrojtWF2kjWQkl%2f%2fS3eoTkTBDOQOJ109ZjvigOrY%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+h1 {
+    font-family: "Rubik Marker Hatch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+
+label{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type="text"], select{
+    color: black;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input[type="text"]:focus, select:focus{
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+option{
+    color: black;
+}
+
+button{
+    background-color: #0056b3;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #004494;
+    transform: scale(1.05);
+}
